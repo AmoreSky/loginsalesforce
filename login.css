@@ -1,0 +1,45 @@
+html,body{
+    overflow: hidden;
+}
+#form{
+    width: 400px;
+    font-size: 13px;
+    background-color: white ;
+}
+a{
+    text-decoration: none !important;
+}
+#not{
+    width: 250px;
+    font-size: 14px;
+}
+#two{
+    background-image: url(./Image/php-login-free-trial-bg-2.jpg);
+    height: 100vh;
+}
+h1{
+    font-size: 35px !important;
+    line-height: 40px !important;
+    color: #032d60 !important;
+    font-weight: 700 !important;
+}
+.blue{
+    background-color: #0b5cab !important;
+    color: white !important;
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+}
+@media only screen and (min-width:360px) and (max-width:475px){
+    #div{
+        width: 100vw !important;
+        margin-top: 20px;
+    }
+    #form{
+        box-shadow: none !important;
+        width: 100% !important;
+    }
+    #pad{
+        padding: 0px !important;
+        margin-right: 0px !important;
+    }
+} 
